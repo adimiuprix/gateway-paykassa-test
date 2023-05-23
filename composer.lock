@@ -1,0 +1,89 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "46e4182401ebd437259de0e0ac4ac62d",
+    "packages": [
+        {
+            "name": "paykassa-dev/paykassa",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paykassa-dev/paykassa-modules.git",
+                "reference": "95048c8bef728b45f187f446a5b82e953bfd9cb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paykassa-dev/paykassa-modules/zipball/95048c8bef728b45f187f446a5b82e953bfd9cb7",
+                "reference": "95048c8bef728b45f187f446a5b82e953bfd9cb7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Paykassa\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paykassa Dev",
+                    "email": "dev@paykassa.pro",
+                    "homepage": "https://paykassa.pro/en/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Paykassa.pro PHP SCI/API Wrapper(Official)",
+            "homepage": "https://github.com/paykassa-dev/paykassa-modules/tree/v1.0.0",
+            "keywords": [
+                "Paykassa",
+                "Paykassa.pro",
+                "api",
+                "bitcoin",
+                "bitpay",
+                "block.io",
+                "btc",
+                "coinpayments",
+                "crypto",
+                "cryptocurrency",
+                "currency",
+                "ethereum",
+                "litecoin",
+                "merchant",
+                "payment gateway",
+                "payment method",
+                "payment processor",
+                "paypal",
+                "php",
+                "tether",
+                "trc20",
+                "tron"
+            ],
+            "support": {
+                "issues": "https://github.com/paykassa-dev/paykassa-modules/issues",
+                "source": "https://github.com/paykassa-dev/paykassa-modules/tree/v1.0.4"
+            },
+            "time": "2023-05-12T18:33:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "cosmos/paykassa",
+    "autoload": {
+        "psr-4": {
+            "Cosmos\\Paykassa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yulgax",
+            "email": "demoranilos@gmail.com"
+        }
+    ],
+    "require": {
+        "paykassa-dev/paykassa": "^1.0"
+    }
+}
